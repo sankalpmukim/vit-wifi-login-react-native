@@ -2,7 +2,7 @@
   "expo": {
     "name": "vit-wifi-login",
     "slug": "vit-wifi-login",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -12,9 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.sankalpmukim.vitwifilogin"
@@ -24,7 +22,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.sankalpmukim.vitwifilogin"
+      "package": "com.sankalpmukim.vitwifilogin",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
