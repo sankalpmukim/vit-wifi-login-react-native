@@ -39,16 +39,6 @@ export default function ApiButtons() {
         onPress={async () => {
           // Call the API
           console.log("Logout Button Pressed");
-          const [userName, password] = await Promise.all([
-            AsyncStorage.getItem("userName"),
-            AsyncStorage.getItem("password"),
-          ]);
-
-          if (!userName || !password) {
-            // console.log("No username or password found");
-            Alert.alert("Error", "No username or password found");
-            return;
-          }
 
           const response = await logout();
           if (response) {
@@ -56,7 +46,7 @@ export default function ApiButtons() {
           } else {
             Alert.alert(
               "Failure",
-              "We could not log you out. There was some error."
+              "Unfortunately, we could not log you out. There was some error."
             );
           }
         }}
