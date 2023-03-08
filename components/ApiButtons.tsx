@@ -26,6 +26,11 @@ export default function ApiButtons() {
           const response = await login({ userName, password });
           if (response) {
             Alert.alert("Success", "Logged in successfully");
+          } else {
+            Alert.alert(
+              "Failiure",
+              "Login attempt failed. Please try again later"
+            );
           }
         }}
         title="Login"
@@ -48,6 +53,11 @@ export default function ApiButtons() {
           const response = await logout();
           if (response) {
             Alert.alert("Success", "Logged out successfully");
+          } else {
+            Alert.alert(
+              "Failure",
+              "We could not log you out. There was some error."
+            );
           }
         }}
         title="Logout"

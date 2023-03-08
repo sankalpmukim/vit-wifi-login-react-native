@@ -1,7 +1,6 @@
 import React from "react";
-import { Alert, Button, StyleSheet, TextInput } from "react-native";
+import { Alert, Button, StyleSheet, TextInput, Text, View } from "react-native";
 
-import { Text, View } from "./Themed";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // This component takes and stores User's WiFi Credentials
@@ -35,11 +34,7 @@ export default function EditSavedInfo() {
   return (
     <View>
       <View style={styles.getStartedContainer}>
-        <Text
-          style={[styles.getStartedText, styles.formHeading]}
-          lightColor="rgba(0,0,0,0.8)"
-          darkColor="rgba(255,255,255,0.8)"
-        >
+        <Text style={[styles.getStartedText, styles.formHeading]}>
           Enter your WiFi Credentials:
         </Text>
       </View>
