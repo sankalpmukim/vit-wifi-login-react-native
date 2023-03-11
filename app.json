@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "vit-wifi-login-react-native",
+    "name": "VIT WiFi Login",
     "slug": "vit-wifi-login-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sankalpmukim.vitwifilogin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
