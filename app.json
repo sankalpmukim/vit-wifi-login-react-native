@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "VIT WiFi Login",
-    "slug": "vit-wifi-login-react-native",
-    "version": "1.0.0",
+    "slug": "vit-wifi-login",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,10 +22,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sankalpmukim.vitwifilogin"
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sankalpmukim.vitwifilogin",
+      "package": "com.sankalpmukim.vitwifilogin",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61c11a08-34ee-417c-9dea-a5da98ba1f5f"
+      }
     }
   }
 }
